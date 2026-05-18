@@ -3,6 +3,9 @@ model: openai/gpt-5-chat
 testData:
   - {}
   - {}
+  - expected: not making mistakes
+  - expected: 'baby dont hurt me '
+  - expected: up
 evaluators:
   - name: Relevance
     uses: github/relevance
