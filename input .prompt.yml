@@ -11,3 +11,4 @@ evaluators:
     uses: github/relevance
   - name: Similarity
     uses: github/similarity
+responseFormat: text
