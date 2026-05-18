@@ -9,7 +9,5 @@ testData:
 evaluators:
   - name: Relevance
     uses: github/relevance
-  - name: Groundedness
-    uses: github/groundedness
   - name: Similarity
     uses: github/similarity
