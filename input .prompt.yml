@@ -1,0 +1,9 @@
+messages: []
+model: openai/gpt-4o
+testData:
+  - {}
+  - {}
+  - {}
+evaluators:
+  - name: Relevance
+    uses: github/relevance
